@@ -60,3 +60,4 @@ Chronological milestones and development continuity record verified across local
 - **`2025-03-01`** (Saturday, 17:35 IST): test: differential drive skid-steer turning radius on loose soil
 - **`2025-03-07`** (Friday, 18:50 IST): feat: environmental sensor integration for soil and ambient logging
 - **`2025-03-14`** (Friday, 15:25 IST): fix: inductive voltage spike suppression using flyback diodes
+- **`2025-03-22`** (Saturday, 16:45 IST): docs: power distribution schematic and battery runtime calculations

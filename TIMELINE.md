@@ -62,3 +62,4 @@ Chronological milestones and development continuity record verified across local
 - **`2025-03-14`** (Friday, 15:25 IST): fix: inductive voltage spike suppression using flyback diodes
 - **`2025-03-22`** (Saturday, 16:45 IST): docs: power distribution schematic and battery runtime calculations
 - **`2025-03-28`** (Friday, 20:10 IST): feat: preliminary telemetry streaming over 433MHz serial radio
+- **`2025-04-05`** (Saturday, 14:15 IST): test: full-chassis payload capacity and ground clearance testing

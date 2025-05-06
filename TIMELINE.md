@@ -65,3 +65,4 @@ Chronological milestones and development continuity record verified across local
 - **`2025-04-05`** (Saturday, 14:15 IST): test: full-chassis payload capacity and ground clearance testing
 - **`2025-04-14`** (Monday, 18:30 IST): refactor: modularize low-level motor driver routines
 - **`2025-04-22`** (Tuesday, 16:40 IST): docs: Quantum Automata field operations hardware interface spec
+- **`2025-05-06`** (Tuesday, 17:20 IST): cad: 4-DOF robotic arm mounting plate for skid-steer rover deck

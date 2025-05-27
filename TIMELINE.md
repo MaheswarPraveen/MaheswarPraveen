@@ -68,3 +68,4 @@ Chronological milestones and development continuity record verified across local
 - **`2025-05-06`** (Tuesday, 17:20 IST): cad: 4-DOF robotic arm mounting plate for skid-steer rover deck
 - **`2025-05-12`** (Monday, 19:45 IST): feat: joint torque sizing and high-torque servo linkages for 4-DOF arm
 - **`2025-05-18`** (Sunday, 15:10 IST): feat: forward and analytical inverse kinematics for spraying arm end-effector
+- **`2025-05-27`** (Tuesday, 18:35 IST): feat: precision spraying solenoid valve control and relay circuit

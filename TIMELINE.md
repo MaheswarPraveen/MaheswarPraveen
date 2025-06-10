@@ -70,3 +70,4 @@ Chronological milestones and development continuity record verified across local
 - **`2025-05-18`** (Sunday, 15:10 IST): feat: forward and analytical inverse kinematics for spraying arm end-effector
 - **`2025-05-27`** (Tuesday, 18:35 IST): feat: precision spraying solenoid valve control and relay circuit
 - **`2025-06-03`** (Tuesday, 16:50 IST): test: 4-DOF arm workspace reachability and spray coverage envelope
+- **`2025-06-10`** (Tuesday, 20:15 IST): feat: physical freedrive jogging calibration for arm joints

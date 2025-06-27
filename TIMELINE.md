@@ -72,3 +72,4 @@ Chronological milestones and development continuity record verified across local
 - **`2025-06-03`** (Tuesday, 16:50 IST): test: 4-DOF arm workspace reachability and spray coverage envelope
 - **`2025-06-10`** (Tuesday, 20:15 IST): feat: physical freedrive jogging calibration for arm joints
 - **`2025-06-19`** (Thursday, 17:40 IST): refactor: separate arm power rail from rover motor rail to eliminate brownouts
+- **`2025-06-27`** (Friday, 18:25 IST): fix: servo feedback noise filtering and ground loop isolation

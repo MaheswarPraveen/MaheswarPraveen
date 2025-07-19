@@ -75,3 +75,4 @@ Chronological milestones and development continuity record verified across local
 - **`2025-06-27`** (Friday, 18:25 IST): fix: servo feedback noise filtering and ground loop isolation
 - **`2025-07-05`** (Saturday, 14:30 IST): test: combined arm-spraying and rover-jogging field tests
 - **`2025-07-11`** (Friday, 19:10 IST): docs: arm joint kinematics DH-parameters and coordinate frames
+- **`2025-07-19`** (Saturday, 16:05 IST): feat: automated stowing and deploy sequence for 4-DOF arm

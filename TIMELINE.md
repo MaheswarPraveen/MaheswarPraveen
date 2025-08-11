@@ -78,3 +78,4 @@ Chronological milestones and development continuity record verified across local
 - **`2025-07-19`** (Saturday, 16:05 IST): feat: automated stowing and deploy sequence for 4-DOF arm
 - **`2025-07-28`** (Monday, 18:40 IST): refactor: optimize nozzle angle tracking during rover motion
 - **`2025-08-05`** (Tuesday, 17:15 IST): feat: Raspberry Pi 5 Hailo-8L M.2 AI accelerator hardware bringup
+- **`2025-08-11`** (Monday, 19:30 IST): feat: agricultural weed and crop image dataset collection and annotation

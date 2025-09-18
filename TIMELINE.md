@@ -83,3 +83,4 @@ Chronological milestones and development continuity record verified across local
 - **`2025-08-25`** (Monday, 16:45 IST): feat: compile trained YOLO model to Hailo-8L HEF edge inference format
 - **`2025-09-02`** (Tuesday, 17:50 IST): feat: HailoRT inference pipeline integration with real-time camera feed
 - **`2025-09-09`** (Tuesday, 20:10 IST): perf: achieve 30+ FPS edge weed detection on Hailo-8L NPU
+- **`2025-09-18`** (Thursday, 18:35 IST): feat: bounding box coordinate to arm target point transform

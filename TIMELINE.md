@@ -85,3 +85,4 @@ Chronological milestones and development continuity record verified across local
 - **`2025-09-09`** (Tuesday, 20:10 IST): perf: achieve 30+ FPS edge weed detection on Hailo-8L NPU
 - **`2025-09-18`** (Thursday, 18:35 IST): feat: bounding box coordinate to arm target point transform
 - **`2025-09-26`** (Friday, 17:25 IST): test: weed detection latency under variable outdoor sunlight conditions
+- **`2025-10-04`** (Saturday, 15:40 IST): feat: LED indicator trigger on positive weed detection for visual feedback

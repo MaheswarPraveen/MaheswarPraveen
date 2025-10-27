@@ -88,3 +88,4 @@ Chronological milestones and development continuity record verified across local
 - **`2025-10-04`** (Saturday, 15:40 IST): feat: LED indicator trigger on positive weed detection for visual feedback
 - **`2025-10-10`** (Friday, 19:15 IST): fix: memory leak during continuous video stream buffer decoding
 - **`2025-10-19`** (Sunday, 16:20 IST): refactor: modularize detector.py for standalone and ROS 2 usage
+- **`2025-10-27`** (Monday, 18:50 IST): test: end-to-end detection-to-spraying trigger latency (< 80ms)

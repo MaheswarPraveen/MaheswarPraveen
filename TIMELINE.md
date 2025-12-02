@@ -93,3 +93,4 @@ Chronological milestones and development continuity record verified across local
 - **`2025-11-10`** (Monday, 19:40 IST): feat: universal serial port scanning and baud rate auto-negotiation
 - **`2025-11-17`** (Monday, 18:15 IST): feat: 10 Hz IMU telemetry streaming over ROS 2 topics
 - **`2025-11-24`** (Monday, 16:55 IST): feat: flight mode switching subscriber (MANUAL, GUIDED, HOLD, RTL)
+- **`2025-12-02`** (Tuesday, 17:45 IST): feat: MAVLink heartbeat failsafe and auto-reconnect watchdog

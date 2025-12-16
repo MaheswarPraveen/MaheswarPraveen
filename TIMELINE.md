@@ -95,3 +95,4 @@ Chronological milestones and development continuity record verified across local
 - **`2025-11-24`** (Monday, 16:55 IST): feat: flight mode switching subscriber (MANUAL, GUIDED, HOLD, RTL)
 - **`2025-12-02`** (Tuesday, 17:45 IST): feat: MAVLink heartbeat failsafe and auto-reconnect watchdog
 - **`2025-12-09`** (Tuesday, 20:20 IST): feat: GPS waypoint subscriber for autonomous guided navigation
+- **`2025-12-16`** (Tuesday, 18:10 IST): test: ArduPilot rover SITL simulation and ROS 2 topic verification

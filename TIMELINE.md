@@ -96,3 +96,4 @@ Chronological milestones and development continuity record verified across local
 - **`2025-12-02`** (Tuesday, 17:45 IST): feat: MAVLink heartbeat failsafe and auto-reconnect watchdog
 - **`2025-12-09`** (Tuesday, 20:20 IST): feat: GPS waypoint subscriber for autonomous guided navigation
 - **`2025-12-16`** (Tuesday, 18:10 IST): test: ArduPilot rover SITL simulation and ROS 2 topic verification
+- **`2025-12-23`** (Tuesday, 16:35 IST): docs: benchmark ArduROSPi resource usage vs heavy MAVROS package

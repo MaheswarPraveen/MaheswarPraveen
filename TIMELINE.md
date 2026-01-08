@@ -97,3 +97,4 @@ Chronological milestones and development continuity record verified across local
 - **`2025-12-09`** (Tuesday, 20:20 IST): feat: GPS waypoint subscriber for autonomous guided navigation
 - **`2025-12-16`** (Tuesday, 18:10 IST): test: ArduPilot rover SITL simulation and ROS 2 topic verification
 - **`2025-12-23`** (Tuesday, 16:35 IST): docs: benchmark ArduROSPi resource usage vs heavy MAVROS package
+- **`2026-01-08`** (Thursday, 17:15 IST): feat: rover hardware verification scripts for GPS lock and telemetry

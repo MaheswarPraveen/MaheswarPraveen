@@ -99,3 +99,4 @@ Chronological milestones and development continuity record verified across local
 - **`2025-12-23`** (Tuesday, 16:35 IST): docs: benchmark ArduROSPi resource usage vs heavy MAVROS package
 - **`2026-01-08`** (Thursday, 17:15 IST): feat: rover hardware verification scripts for GPS lock and telemetry
 - **`2026-01-15`** (Thursday, 18:40 IST): test: ground rover autonomous mission logging in Mission Planner
+- **`2026-01-22`** (Thursday, 19:25 IST): feat: ROS 2 weed_picker package with launch files and node orchestration

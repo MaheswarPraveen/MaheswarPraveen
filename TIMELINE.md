@@ -103,3 +103,4 @@ Chronological milestones and development continuity record verified across local
 - **`2026-02-05`** (Thursday, 17:50 IST): feat: 57600 baud legacy telemetry radio bridge compatibility
 - **`2026-02-12`** (Thursday, 16:30 IST): test: outdoor GPS waypoint following with continuous weed detection
 - **`2026-02-19`** (Thursday, 18:15 IST): fix: handle serial port disconnection gracefully during field operation
+- **`2026-03-03`** (Tuesday, 19:10 IST): docs: rover autonomy architecture diagram and node dependency graph

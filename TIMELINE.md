@@ -11,3 +11,4 @@ Chronological milestones and development continuity record verified across local
 - **`2026-05-26`** (14:15 IST): feat: telemetry data logging and sensor interface
 - **`2026-05-28`** (14:15 IST): refactor: optimize PWM duty cycle calculations and timers
 - **`2026-05-29`** (14:15 IST): feat: large-scale asset pipeline and workspace data structures
+- **`2026-05-29`** (17:30 IST): perf: optimize memory footprint during high-throughput serial streams

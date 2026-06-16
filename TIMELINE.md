@@ -20,3 +20,4 @@ Chronological milestones and development continuity record verified across local
 - **`2026-06-15`** (17:30 IST): perf: optimize inverse kinematics calculation rate to 200 Hz
 - **`2026-06-15`** (20:45 IST): docs: document stance geometry and contact phase transitions
 - **`2026-06-16`** (14:15 IST): feat: quintic polynomial spline interpolation for foot trajectories
+- **`2026-06-16`** (17:30 IST): refactor: servo angle mapping and PCA9685 I2C driver synchronization

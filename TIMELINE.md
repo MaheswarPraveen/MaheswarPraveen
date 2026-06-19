@@ -23,3 +23,4 @@ Chronological milestones and development continuity record verified across local
 - **`2026-06-16`** (17:30 IST): refactor: servo angle mapping and PCA9685 I2C driver synchronization
 - **`2026-06-17`** (14:15 IST): fix: noise filtering for serial feedback and jitter elimination
 - **`2026-06-18`** (14:15 IST): test: hardware-in-the-loop servo response benchmarks
+- **`2026-06-19`** (14:15 IST): feat: power rail monitoring and low-voltage cutoff safety

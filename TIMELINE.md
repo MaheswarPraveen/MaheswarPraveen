@@ -32,3 +32,4 @@ Chronological milestones and development continuity record verified across local
 - **`2026-07-03`** (17:30 IST): refactor: image preprocessing and normalization shaders
 - **`2026-07-07`** (14:15 IST): feat: edge AI inference optimizations for real-time detection
 - **`2026-07-16`** (14:15 IST): feat: 2.5D cyberpunk player character state machine in Godot
+- **`2026-07-17`** (14:15 IST): feat: combat interaction mechanics and hit-box registration

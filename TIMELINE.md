@@ -41,3 +41,4 @@ Chronological milestones and development continuity record verified across local
 - **`2026-08-10`** (14:15 IST): docs: technical driver specification for Waveshare RoArm M2-S
 - **`2026-08-11`** (14:15 IST): feat: gravity compensation model tuning across joint axes
 - **`2026-08-12`** (14:15 IST): feat: 4-DOF agricultural arm precision spraying kinematics
+- **`2026-08-13`** (14:15 IST): feat: skid-steer differential drive speed curves and ramping

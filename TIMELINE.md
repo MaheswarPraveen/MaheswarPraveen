@@ -47,3 +47,4 @@ Chronological milestones and development continuity record verified across local
 - **`2026-08-15`** (17:30 IST): docs: document 3S LiPo hand-soldered copper bus bar specs
 - **`2026-08-15`** (20:45 IST): refactor: DC-DC converter isolation and high-current motor shielding
 - **`2026-08-16`** (14:15 IST): feat: full autonomous field rover integration and validation
+- **`2026-08-16`** (17:30 IST): perf: multi-threaded sensor acquisition and telemetry streaming

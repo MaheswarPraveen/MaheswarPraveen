@@ -52,3 +52,4 @@ Chronological milestones and development continuity record verified across local
 - **`2026-08-17`** (14:15 IST): fix: sensor calibration drift compensation under direct sunlight
 - **`2026-08-18`** (14:15 IST): test: rover endurance testing over uneven terrain
 - **`2026-08-21`** (14:15 IST): feat: cloud telemetry bridge and remote mission logging
+- **`2026-08-21`** (17:30 IST): refactor: clean up modular service layers across robot nodes

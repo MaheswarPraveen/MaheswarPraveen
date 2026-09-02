@@ -1,70 +1,59 @@
 # Maheswar N Praveen
 
-> Robotics & Systems Engineer focused on analytical kinematics, embedded motion control, developer infrastructure, and physical computing.
+> *"I'm lazy, but I do my work with cosmic-sane perfection."*
+
+Robotics & AI Engineer based in Bangalore / Kochi, India. I build physical systems that move, think, occasionally try to catch fire, and eventually run with mathematical precision. 
+
+My comfort zone spans the entire mess between hardware and software: from hand-soldering copper bus bars for 3S LiPos to writing 3-DOF inverse kinematics at 200 Hz, bridging ROS 2 without bloated middleware, and deploying YOLO on edge NPUs.
 
 ---
 
-## Featured Work & Key Projects
+## Things I Built That Actually Work
 
-### 1. Robotics, Kinematics & Autonomous Systems
+### [RO-ARM-PlayMotion](https://github.com/MaheswarPraveen/RO-ARM-PlayMotion)
+* **Officially listed on the [Waveshare RoArm-M2-S Wiki](https://www.waveshare.com/wiki/RoArm-M2-S)**.
+* Built a custom driver with freedrive teaching (grab the arm, move it around, it learns) and keyboard jogging.
+* Added quintic polynomial spline interpolation so the arm moves like a human limb instead of violently vibrating itself off the desk.
 
-* **[RO-ARM-PlayMotion](https://github.com/MaheswarPraveen/RO-ARM-PlayMotion)**
-  * **Featured on the official Waveshare RoArm M2-S documentation page.**
-  * Robotic manipulator trajectory recording and playback engine featuring freedrive teaching, quintic polynomial interpolation, and gravity compensation models.
+### [SpotMicro Quadruped](https://github.com/MaheswarPraveen/SpotMicro)
+* A 12-DOF quadruped robot dog on a 3D-printed KDY0523 frame (4 walls, 20% gyroid infill because layer adhesion matters).
+* Driven by 12x DS3218 servos powered through a dedicated 6.8V rail off a 3S LiPo with a hand-soldered copper bus bar (because regular wires turn into heaters).
+* Prototyped on ESP32; currently migrating gait math to an Arduino UNO Q with the M33/Zephyr core crunching inverse kinematics at ~200 Hz while Linux handles high-level telemetry.
 
-* **[SpotMicro](https://github.com/MaheswarPraveen/SpotMicro)**
-  * Complete 12-DOF quadruped robot control system.
-  * Implements analytical 3-DOF inverse kinematics, stance geometry planning, FreeRTOS multi-core task scheduling, and real-time WiFi telemetry.
+### [ArduROSPI](https://github.com/MaheswarPraveen/ArduROSPI)
+* A lightweight ROS 2 <-> MAVLink serial bridge using `pymavlink`.
+* Built because MAVROS is a 500MB headache when you just want to drive a rover on a Raspberry Pi.
+* Handles heartbeat failsafes, IMU streaming at 10 Hz, and mode switching over clean ROS 2 topics. Recognized by the ArduPilot community on Reddit and forums.
 
-* **[ArduROSPi](https://github.com/MaheswarPraveen/ArduROSPi)**
-  * Lightweight ROS 2 <-> ArduPilot communication bridge for autonomous ground rovers.
-  * Bypasses heavy MAVROS/Mission Planner stacks for direct topic-based GPS waypoint navigation, manual teleop, and hardware emergency-stop protocols.
+### [Autonomous Agricultural Skid-Steer Rover](https://github.com/MaheswarPraveen/SKID-STEER-ROVER-WITH-ARM)
+* Final-year engineering project: a heavy-duty field rover with a 4-DOF robotic arm for precision spraying and weed removal.
+* Powered by DC-DC power distribution and packed with a Hailo-8L AI accelerator running real-time YOLO on the edge.
+* It worked well enough in field tests that it got adopted for real-world agricultural deployment.
 
-* **[SKID-STEER-ROVER-WITH-ARM](https://github.com/MaheswarPraveen/SKID-STEER-ROVER-WITH-ARM)**
-  * Integrated mobile manipulator rover combining differential skid-steer drive with a multi-axis robotic arm.
+### [offgit](https://github.com/MaheswarPraveen/offgit)
+* An ambient agentic development harness running in the background.
+* It tracks technical reasoning (< 1ms) and syncs project repos to GitHub every 10 minutes without touching git by hand or spamming commit histories.
 
----
-
-### 2. Developer Tooling & Ambient Systems
-
-* **[offgit](https://github.com/MaheswarPraveen/offgit)**
-  * Ambient agentic development harness connecting modern AI tools (Google Antigravity, Claude Code, Cursor, OpenCode) and embedded IDEs (Arduino IDE, Godot, Thonny).
-  * Decouples instant local activity tracking (< 1ms) from atomic 10-minute remote Git synchronization with dual-channel routing, per-repo lockfiles, and zero-activity gating.
-
----
-
-### 3. Game Production & Simulation
-
-* **[kalkii-genesis](https://github.com/MaheswarPraveen/kalkii-genesis)**
-  * 2.5D Cyberpunk Action-Shooter and narrative causal loop engine built with Godot Engine and GDScript (Produced under Quantum Pixels).
-  * Features modular finite state machines, dynamic lighting pipelines, and procedural combat interactions.
+### [Kalkii Genesis](https://github.com/MaheswarPraveen/kalkii-genesis)
+* Solo-developing a 2D cyberpunk side-scrolling action game in Godot Engine (GDScript).
+* Because sometimes servos get hot and you just want to write narrative loops, combat mechanics, and custom shaders.
 
 ---
 
-### 4. Computer Vision & Applied Intelligence
+## What I Work With
 
-* **[InfraFace](https://github.com/MaheswarPraveen/InfraFace)**
-  * Infrared biometric authentication and face unlock utility for Linux desktops using IR camera streams.
-
-* **[Plant-Disease-Detection](https://github.com/MaheswarPraveen/Plant-Disease-Detection)**
-  * Deep convolutional neural network (CNN) pipeline for agricultural leaf pathology detection and classification.
-
----
-
-## Technical Capabilities & Domain Stack
-
-| Domain | Technologies & Tooling |
-| :--- | :--- |
-| **Languages** | Python, C++, C, GDScript, Bash, PowerShell |
-| **Robotics & Hardware** | ROS 2, Waveshare RoArm M2-S, ESP32 / ESP8266, Raspberry Pi 4B, PCA9685, FreeRTOS |
-| **Kinematics & Control** | 3-DOF Analytical Inverse Kinematics, Quintic Polynomial Trajectory Generation, Gait Phasing, Freedrive Teaching |
-| **Vision & Machine Learning** | OpenCV, Convolutional Neural Networks (CNN), Infrared Imaging, Edge Inference |
-| **Infrastructure & Systems** | Linux (Ubuntu/Debian), Windows WMI / Process APIs, Git, GitHub Actions, systemd, launchd |
-| **Engines & Simulation** | Godot 4, Arduino IDE, Thonny |
+* **Robotics & Middleware**: ROS 2 (Jazzy), ArduPilot, MAVLink, PX4, Mission Planner, MicroPython
+* **Kinematics & Motion**: 3-DOF Analytical Inverse Kinematics, Quintic Splines, Gait Phasing, Freedrive Manipulation
+* **Embedded Hardware**: ESP32, Arduino, Raspberry Pi, Hailo-8L NPU, PCA9685, DC-DC Power Systems, Soldering
+* **AI & Computer Vision**: YOLO, OpenCV, PyTorch, TensorFlow, Edge Acceleration
+* **Languages**: Python, C/C++, GDScript, Bash, PowerShell, JavaScript
+* **Engines & Tools**: Godot 4, Linux (Ubuntu/Fedora), Git, FreeRTOS
 
 ---
 
 ## Contact & Links
 
-* **GitHub**: [github.com/MaheswarPraveen](https://github.com/MaheswarPraveen)
+* **Location**: Bangalore / Kochi, India
+* **Email**: [maheswarpraveen@gmail.com](mailto:maheswarpraveen@gmail.com)
 * **LinkedIn**: [linkedin.com/in/maheswarpraveen](https://www.linkedin.com/in/maheswarpraveen)
+* **GitHub**: [github.com/MaheswarPraveen](https://github.com/MaheswarPraveen)

@@ -1,12 +1,12 @@
 # Live Project Context: MaheswarPraveen
 
-**Last Synced:** 2026-09-02 16:08:49
+**Last Synced:** 2026-09-02 16:19:12
 
 ## Current Focus & Active State
 
-- Directive: it doesnt to any frcikin disservice if my porfolio looks cool
-- Rationale: Aligning on high-impact visual aesthetics: prioritizing an aggressive, futuristic hardware telemetry look with slick animations, dark sci-fi aesthetic, and high-tech flair
-- Updated `CONTEXT.md` (+3/-13 lines).
+- Directive: nah it should be more like black hole themed as we scroll black hole should move. like very blackish
+- Rationale: Embracing the deep black hole theme: absolute pure-black cosmic canvas, WebGL / Three.js gravitational lensing and relativistic accretion disk that shifts and reacts on scroll, anchoring robotics and AI projects around a gravitational event horizon
+- Updated `CONTEXT.md` (+3/-15 lines).
 
 ## Recent Context Stream
 
@@ -18,6 +18,8 @@
   *Rationale:* Explaining GitHub Pages mechanics and initiating a structured brainstorming session for the portfolio website covering design, architecture, project showcase, and interactive elements
 - **[antigravity]** (2026-09-02 10:38:44): it doesnt to any frcikin disservice if my porfolio looks cool
   *Rationale:* Aligning on high-impact visual aesthetics: prioritizing an aggressive, futuristic hardware telemetry look with slick animations, dark sci-fi aesthetic, and high-tech flair
+- **[antigravity]** (2026-09-02 10:44:55): nah it should be more like black hole themed as we scroll black hole should move. like very blackish
+  *Rationale:* Embracing the deep black hole theme: absolute pure-black cosmic canvas, WebGL / Three.js gravitational lensing and relativistic accretion disk that shifts and reacts on scroll, anchoring robotics and 
 
 ## Open Decisions & Next Steps
 

@@ -73,3 +73,9 @@ Automated continuity log maintained by offGIT.
 - Directive: is that everything>
 - Rationale: Exhaustive forensic audit of entire filesystem to verify if any remaining codebase, experiment, or artifact exists that has not been cataloged or uploaded.
 - Updated `CONTEXT.md` (+3/-17 lines).
+
+## 2026-09-04 10:46:17 - Manual edit (Arduino IDE / Thonny / Godot)
+
+- Directive: wheres all data from 2025? just one?
+- Rationale: Auditing all 2025 repositories, git history, and local filesystem artifacts to locate all 2025 engineering work and rover development milestones.
+- Updated `CONTEXT.md` (+3/-17 lines).
